@@ -1,3 +1,14 @@
+@media screen and (max-width: 768px) {
+  section#book-parking-section,
+  section#feedback-section {
+    flex-basis: 100%; 
+  }
+
+  section#book-parking-section form,
+  section#feedback-section form {
+    max-width: 300px; 
+    margin: 0 auto; 
+}
 
 body {
     font-family: Arial, sans-serif;
